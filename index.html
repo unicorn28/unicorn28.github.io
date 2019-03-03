@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <script>
-      function blinker() {
-        $('.blinking').fadeOut(500);
-          $('.blinking').fadeIn(500);
-      }
-      setInterval(blinker,1000);
-    </script>
     <meta charset="utf-8">
     <title>Number Guessing</title>
     <link rel="stylesheet" href="style.css" type="text/css">
@@ -25,13 +18,13 @@
   </head>
   <body>
     <h1>
-      <p class="blinking"> Test
-   <!-- <a href="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiZ8pOpntXgAhVqc98KHa51AIsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Funder-construction-sign-with-helmet-vector-1694960&psig=AOvVaw1XiN60BQFQmJO8ZTS3FQvQ&ust=1551127455112536">Under Construction</a>--> 
-      </p>
+      <blink>
+    <a href="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiZ8pOpntXgAhVqc98KHa51AIsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Funder-construction-sign-with-helmet-vector-1694960&psig=AOvVaw1XiN60BQFQmJO8ZTS3FQvQ&ust=1551127455112536">Under Construction</a>
+      </blink>
         </h1>
     <section class="overlay">
       <h2>Guess the right number!</h2>
-      <div class="content">
+      <!-- div class="content">
       <form action="check.html" method="GET">
         <!--Add a required attribute to the input element-->
         <label for="guess">Enter a number between 1-10:</label>
@@ -40,7 +33,7 @@
         <br>
         <input type="submit" id="submission" value="Submit">
       </form>
-    </div>
+    <!--/div>
     </section>
   </body>
 </html>
