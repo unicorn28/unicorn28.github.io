@@ -6,15 +6,14 @@ div.fixed {
   right: 20;
 }
 img {
-  height: 100px;
-  max-width: 30%;
+  height: 500px;
+  max-width: 50%;
 }
 
 h2 {
-  color: red;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
 }
-body {
-  background-color: lightblue;
-}
-  
+
 
