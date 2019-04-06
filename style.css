@@ -1,0 +1,20 @@
+# CSS-style
+
+div.fixed {
+  position: fixed;
+  top: 40;
+  right: 20;
+}
+img {
+  height: 100px;
+  max-width: 30%;
+}
+
+h2 {
+  color: red;
+}
+body {
+  background-color: lightblue;
+}
+  
+
