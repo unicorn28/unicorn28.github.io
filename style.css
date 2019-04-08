@@ -15,6 +15,7 @@ h2 {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   text-shadow: 3px 2px green;
+  border-style: double;
 }
 
 
