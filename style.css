@@ -11,9 +11,10 @@ img {
 }
 
 h2 {
-  color: red;
+  color: blue;
   font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-size: 20px;
+  text-shadow: 3px 2px green;
 }
 
 
