@@ -33,8 +33,7 @@ h2.pool {
   width: 500px;
   margin: left;
   border: 3px solid
-  top: 20px
-  right 40px
+ 
 }
 
 h2.lightblue {
@@ -59,4 +58,9 @@ h2.triangle {
   width: 500px;
   margin: left;
   border: 3px solid
+}
+
+img.firsthouse {
+  top: 20px
+  right: 40px
 }
