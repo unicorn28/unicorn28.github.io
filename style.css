@@ -5,10 +5,7 @@ div.fixed {
   top: 40;
   right: 20;
 }
-img {
-  height: 400px;
-  max-width: 40%;
-}
+
 
 h2.Geometric {
   color: blue;
@@ -31,7 +28,7 @@ h2.pool {
   border-style: double;
   margin: 0 0 50px 0;
   margin: left;
-  width: 40px
+  width: 40%
   border: 3px solid
  
 }
