@@ -21,6 +21,12 @@ div.thirdhouse {
   padding:20px;  
 }
 
+div.fourthouse {
+  background-color:yellow;
+  padding:20px;
+}
+  
+
 h2.firstheading {
   color: blue;
   font-family: "Times New Roman", Times, serif;
@@ -57,7 +63,7 @@ h2.thirdheading {
   border: 3px solid
 }
 
-h2.triangle {
+h2.fourtheading {
   color: yellow;
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
