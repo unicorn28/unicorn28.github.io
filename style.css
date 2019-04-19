@@ -1,27 +1,22 @@
 # CSS-style
 
-div.fixed {
-  position: fixed;
-  top: 40;
-  right: 20;
-}
-
-div.firsthouse {
+img.firstimage{
  background-color:lightblue;
  padding:20px; 
 }
 
-div.secondhouse {
+img.secondimage {
  background-color:pink;
  padding:20px;
 }
 
-div.thirdhouse {
+img.thirdimage {
   background-color:yellow;
   padding:20px;  
 }
 
-div.fourthouse {
+
+img.fourthimage {
   background-color:orange;
   padding:20px;
 }
