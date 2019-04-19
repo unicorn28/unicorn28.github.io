@@ -5,7 +5,7 @@ div.fixed {
   top: 40;
   right: 20;
 }
-div.firsthouse img {
+div.firsthouse {
  background-color:lightblue;
  padding:20px; 
 }
