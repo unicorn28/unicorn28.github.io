@@ -16,6 +16,11 @@ div.secondhouse {
  padding:20px;
 }
 
+div.thirdheading {
+  background-color:yellow;
+  padding:20px;  
+}
+
 h2.firstheading {
   color: blue;
   font-family: "Times New Roman", Times, serif;
