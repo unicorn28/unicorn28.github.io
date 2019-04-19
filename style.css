@@ -5,7 +5,10 @@ div.fixed {
   top: 40;
   right: 20;
 }
-
+div.firsthouse img {
+ background-color:lightblue;
+ padding:20px; 
+}
 
 h2.geometric {
   color: blue;
