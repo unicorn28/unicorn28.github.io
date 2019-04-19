@@ -5,9 +5,15 @@ div.fixed {
   top: 40;
   right: 20;
 }
+
 div.firsthouse {
  background-color:lightblue;
  padding:20px; 
+}
+
+div.secondhouse {
+ background-color:pink;
+ padding:20px;
 }
 
 h2.firstheading {
