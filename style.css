@@ -8,6 +8,8 @@ img.firstimage {
 img.secondimage {
  background-color:pink;
  padding:20px;
+ height: 200px;
+ width: 50%;
 }
 
 img.thirdimage {
