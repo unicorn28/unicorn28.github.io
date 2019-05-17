@@ -130,17 +130,17 @@ h2.fourtheading {
  
   <div class="secondhouse">
     <img class="secondimage" src="pool.JPG" alt="Sketchup House with Pool Model">
-    <h2 class="secondheading" id="secondh2" onclick="document.getElementById('secondh2').innerHTML='Thank You for Your vote! You have selected the House with a Pool!'"> House with a pool: This is a model of a modern house with a pool</h2>
+    <h2 class="secondheading" id="secondh2" onclick="poolHouseClick()"> House with a pool: This is a model of a modern house with a pool</h2>
   </div>
   
   <div class="thirdhouse">
     <img class="thirdimage" src="lightblue.JPG" alt="Sketchup House Model with light blue glss">
-    <h2 class="thirdheading" id="thirdh2" onclick="document.getElementById('thirdh2').innerHTML='Thank You for Your vote! You have selected the Light Blue House!'"> Light Blue Glass House: This is a model of a modern house with light blue glass</h2>
+    <h2 class="thirdheading" id="thirdh2" onclick="lightBlueHouseClick"> Light Blue Glass House: This is a model of a modern house with light blue glass</h2>
   </div>
   
   <div class="fourthouse">
     <img class="fourthimage" src="triangle.JPG" alt="Sketchup House Model with triangular structure">
-    <h2 class="fourtheading" id="fourthh2" onclick="document.getElementById('fourthh2').innerHTML='Thank You for Your vote! You have selected the Triangle House!'"> Triangle House: This is a model of a modern house with a triangular structure</h2>
+    <h2 class="fourtheading" id="fourthh2" onclick="triangleHouseClick()"> Triangle House: This is a model of a modern house with a triangular structure</h2>
   </div>
  
  <center>
@@ -151,8 +151,23 @@ h2.fourtheading {
   
  <script> 
    function geometricHouseClick() {
-    document.getElementById("firsth2").style.color = "red";
+    document.getElementById('firsth2').style.color = "red";
     document.getElementById('firsth2').innerHTML='Thank You for Your vote! You have selected the Geometric House!'; 
+   }
+  
+  function poolHouseClick() {
+    document.getElementById('secondh2').style.color = "red";
+    document.getElementById('secondh2').innerHTML='Thank You for Your vote! You have selected the House with a Pool!'; 
+   }
+  
+  function lightBlueHouseClick() {
+    document.getElementById('thirdh2').style.color = "red";
+    document.getElementById('thirdh2').innerHTML='Thank You for Your vote! You have selected the Light Blue House!'
+   }
+  
+  function triangleHouseClick() {
+    document.getElementById)('fourthh2').style.color = "red";
+    document.getElementById('fourthh2').innerHTML='Thank You for Your vote! You have selected the Triangle House!'
    }
  </script>
 </body>
