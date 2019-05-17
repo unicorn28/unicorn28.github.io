@@ -117,10 +117,6 @@ h2.fourtheading {
   left: 30%;
   right: 30%;
  }
-
- #firsth2 {
-
- }
  
 </style>
 </head>
@@ -129,7 +125,7 @@ h2.fourtheading {
 
 <div class="firsthouse">
     <img class="firstimage" src="geometric.JPG" alt="Sketchup House Model with triangular structure">
-    <h2 class="firstheading" id="firsth2" onclick="document.getElementById('firsth2').innerHTML='Thank You for Your vote! You have selected the Geometric House!'">Geometric House: This is a model of a modern house with a geometric structure</h2>
+    <h2 class="firstheading" id="firsth2" onclick="geometricHouseClick()"> Geometric House: This is a model of a modern house with a geometric structure</h2>
   </div>
  
   <div class="secondhouse">
@@ -153,6 +149,12 @@ h2.fourtheading {
   </div> 
  </center>
   
+ <script> 
+   function geometricHouseClick() {
+    document.getElementById("firsth2").style.color = "red";
+    document.getElementById('firsth2').innerHTML='Thank You for Your vote! You have selected the Geometric House!'; 
+   }
+ </script>
 </body>
 </html>
                                  
